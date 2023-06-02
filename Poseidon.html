@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://kit.fontawesome.com/2995b03cec.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Poseidon.css">
+    <title>Poseidon</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-top">
+
+            <div class="header-left">
+                <a href="#">
+                    <img src="https://www.primefaces.org/poseidon-vue/layout/images/logo-poseidon.png"
+                        alt="Poseidon Logo">
+                </a>
+            </div>
+
+            <div class="header-right">
+                <div class="menu-button" id="menu"><i class="fa-solid fa-bars"></i></div>
+
+                <div class="header-action">
+
+                    <form class="search-button" action="action_page.php">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Search..." name="search">
+                    </form>
+
+                    <div class="notifications">
+                        <div><a href="#"><i class="fa-regular fa-bell"></i></a></div>
+                        <div><a href="#"><i class="fa-regular fa-comments"></i></a></div>
+                        <div><a href="#"><i class="fa-solid fa-gear"></i></a></div>
+                    </div>
+
+                    <div class="person-info">
+                        <img src="https://cdn2.iconfinder.com/data/icons/4web-3/139/header-account-image-line-512.png"
+                            alt="photo">
+                        <div class="person-data">
+                            <h6>Peter Griffin</h6>
+                            <span>Webmaster</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <div class="notifications">
+                <div><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></div>
+                <div><a href="#"><i class="fa-regular fa-bell"></i></a></div>
+                <div><a href="#"><i class="fa-regular fa-comments"></i></a></div>
+                <div><a href="#"><i class="fa-solid fa-gear"></i></a></div>
+            </div>
+        </div>
+    </header>
+
+    <nav id="navbar">
+        <ul>
+
+            <p>FAVORITES</p>
+            <li><i class="fa-solid fa-house"></i><a href="#">Dashboard</a></li>
+
+            <p>UI KIT</p>
+            <li><i class="fa-solid fa-address-card"></i><a href="#">Form Layout</a></li>
+            <li><i class="fa-solid fa-check-to-slot"></i><a href="#">Input</a></li>
+            <li><i class="fa-solid fa-bookmark"></i><a href="#">Float Label</a></li>
+            <li><i class="fa-solid fa-circle-exclamation"></i><a href="#">Invalid State</a></li>
+            <li><i class="fa-solid fa-square"></i><a href="#">Button</a></li>
+            <li><i class="fa-solid fa-table"></i><a href="#">Table</a></li>
+            <li><i class="fa-solid fa-list"></i><a href="#">List</a></li>
+            <li><i class="fa-solid fa-diagram-project"></i><a href="#">Tree</a></li>
+            <li><i class="fa-solid fa-mobile-button"></i><a href="#">Panel</a></li>
+            <li><i class="fa-solid fa-copy"></i><a href="#">Overlay</a></li>
+            <li><i class="fa-solid fa-photo-film"></i><a href="#">Media</a></li>
+            <li><i class="fa-solid fa-bars"></i><a href="#">Menu</a></li>
+            <li><i class="fa-solid fa-comment"></i><a href="#">Message</a></li>
+            <li><i class="fa-solid fa-file"></i><a href="#">File</a></li>
+            <li><i class="fa-solid fa-chart-simple"></i><a href="#">Chart</a></li>
+            <li><i class="fa-regular fa-circle"></i><a href="#">Misc</a></li>
+
+            <p>PRIME BLOCKS</p>
+            <li><i class="fa-solid fa-eye"></i><a href="#">Free Blocks</a></li>
+            <li><i class="fa-solid fa-globe"></i><a href="#">All Blocks</a></li>
+
+            <p>UTILITIES</p>
+            <li><a href='#'>PrimeIcons</a></li>
+            <li><i class="fa-solid fa-laptop"></i><a href='#'>PrimeFlex</a></li>
+
+            <p>PAGES</p>
+            <li><i class="fa-solid fa-pen"></i><a href='#'>Crud</a></li>
+            <li><i class="fa-solid fa-calendar-days"></i><a href='#'>Calender</a></li>
+            <li><i class="fa-solid fa-calendar"></i><a href='#'>Timeline</a></li>
+            <li><i class="fa-solid fa-user-plus"></i><a href='#'>Landing</a></li>
+            <li><i class="fa-solid fa-right-to-bracket"></i><a href='#'>Login</a></li>
+            <li><i class="fa-solid fa-dollar-sign"></i><a href='#'>Invoice</a></li>
+            <li><i class="fa-solid fa-circle-question"></i><a href='#'>Help</a></li>
+            <li><i class="fa-solid fa-circle-xmark"></i><a href='#'>Error</a></li>
+            <li><i class="fa-solid fa-circle-exclamation"></i><a href='#'>Not Found</a></li>
+            <li><i class="fa-solid fa-lock"></i><a href='#'>Access Denied</a></li>
+            <li><i class="fa-regular fa-circle"></i><a href='#'>Empty</a></li>
+
+            <p>HIERARCHY</p>
+            <li><a href='#'>Submenu 1</a></li>
+            <li><a href='#'>Submenu 2</a></li>
+
+            <p>START</p>
+            <li><i class="fa-solid fa-cart-shopping"></i><a href='#'>Buy Now</a></li>
+            <li><i class="fa-solid fa-circle-info"></i><a href='#'>Documantation</a></li>
+        </ul>
+    </nav>
+
+    <main id="main">
+        <div class="card-container">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Name</td>
+                        <td>Role</td>
+                        <td>Company</td>
+                        <td>Location</td>
+                        <td>Rating</td>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Buzz</td>
+                        <td>Owner</td>
+                        <td>Your Friend Buzz</td>
+                        <td>Australia</td>
+                        <td>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Dustin</td>
+                        <td>Admin</td>
+                        <td>Story Inc</td>
+                        <td>Hong Kong</td>
+                        <td>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Mark</td>
+                        <td>User</td>
+                        <td>Mixpanel</td>
+                        <td>United States of America</td>
+                        <td>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Cynthia</td>
+                        <td>Visitor</td>
+                        <td>Shopify</td>
+                        <td>Canada</td>
+                        <td>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Mark</td>
+                        <td>User</td>
+                        <td>Mixpanel</td>
+                        <td>United States of America</td>
+                        <td>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Cynthia</td>
+                        <td>Visitor</td>
+                        <td>Shopify</td>
+                        <td>Canada</td>
+                        <td>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </section>
+        
+        <footer>
+            <div>
+                <a href="#">
+                    <img src="https://www.primefaces.org/poseidon-vue/layout/images/logo-poseidon.png"
+                        alt="Poseidon Logo">
+                </a>
+            </div>
+
+            <div>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </footer>
+    </main>
+
+    <script>
+        const menu = document.getElementById("menu");
+        const navbar = document.getElementById("navbar");
+        const main = document.getElementById("main");
+
+        menu.onclick = function () {
+            menu.classList.toggle('active');
+            navbar.classList.toggle('active');
+            main.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
